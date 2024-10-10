@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+height: 100vh;
+background-color: rgb(21, 159, 201);
+background-repeat: no-repeat;
+}
+header{
+    height: 160px;
+    width: 125%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+}
+ul{
+    display: flex;
+}
+li{
+    width: 35vh;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;  
+}
+ul1{
+    width: 384vh;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;  
+}
+.hero{
+    height: 90px;
+    width: 150ch;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+.Picture{
+    width: 45%;
+    height: 1vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
