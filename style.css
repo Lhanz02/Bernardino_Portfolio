@@ -87,7 +87,7 @@ li a:hover {
 
 .picture-container {
     flex: 1;
-    max-width: 50%;
+    max-width: 80%;
     max-height: 80%;
     margin: 0;
     margin-bottom: 7%;
@@ -107,7 +107,7 @@ li a:hover {
     background-color: darkred;
     padding: 10%;
     text-align: center;
-    border-bottom: 2.5px solid #000000; /* Border between sections */
+    border-bottom: 1.5px solid #000000; /* Border between sections */
 }
 
 .hobbies-title {
@@ -148,7 +148,7 @@ li a:hover {
 .skills-section {
     padding: 10%;
     background-color: darkred;
-    border-bottom: 2.5px solid rgb(0, 0, 0);
+    border-bottom: 1.5px solid black;
     text-align: center;
 }
 
@@ -198,7 +198,7 @@ li a:hover {
 .gallery-section {
     padding: 10%;
     background-color: darkred;
-    border-bottom: 2.5px solid rgb(0, 0, 0);
+    border-bottom: 1.5px solid black;
     text-align: center;
 }
 
@@ -233,7 +233,7 @@ li a:hover {
 .status-section {
     padding: 10%;
     background-color: darkred;
-    border-bottom: 1.5px  black;
+    border-bottom: 2.5px solid black;
     text-align: center;
 }
 
@@ -293,8 +293,8 @@ li a:hover {
 }
 
 .social-icon {
-    width: 70px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     transition: transform 0.3s ease;
 }
 
@@ -304,6 +304,6 @@ li a:hover {
 
 /* Section Borders */
 .section-border {
-    border: 1.5px solid black;
+    border: 2.5px solid black;
     width: 100%;
 }
