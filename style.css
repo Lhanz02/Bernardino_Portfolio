@@ -170,7 +170,81 @@ li a:hover {
     background-color: rgb(187, 187, 187);
     color: white;
     width: 45%;
-    height: 1vh; 
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 10px;
+    height: 20px;
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+.gaming { width: 90%; background-color: green; }
+.editing { width: 70%; background-color: yellow; }
+.coding { width: 60%; background-color: blue; }
+.sports { width: 50%; background-color: red; }
+
+/* Gallery Section */
+.gallery-section {
+    padding: 10%;
+    background-color: darkred;
+    border-bottom: 2.5px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+.gallery-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.gallery-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+    width: calc(25% - 40px);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Status Section */
+.status-section {
+    padding: 10%;
+    background-color: darkred;
+    border-bottom: 1.5px  black;
+    text-align: center;
+}
+
+.status-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.status-content {
     display: flex;
     justify-content: center;
     align-items: center;
