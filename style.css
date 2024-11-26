@@ -1,3 +1,4 @@
+
 /* General Reset */
 * {
     margin: 0;
@@ -87,7 +88,7 @@ li a:hover {
 
 .picture-container {
     flex: 1;
-    max-width: 80%;
+    max-width: 50%;
     max-height: 80%;
     margin: 0;
     margin-bottom: 7%;
@@ -107,7 +108,7 @@ li a:hover {
     background-color: darkred;
     padding: 10%;
     text-align: center;
-    border-bottom: 1.5px solid #000000; /* Border between sections */
+    border-bottom: 2.5px solid #000000; /* Border between sections */
 }
 
 .hobbies-title {
@@ -148,7 +149,7 @@ li a:hover {
 .skills-section {
     padding: 10%;
     background-color: darkred;
-    border-bottom: 1.5px solid black;
+    border-bottom: 2.5px solid rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -189,16 +190,16 @@ li a:hover {
     transition: width 1s ease-in-out;
 }
 
-.gaming { width: 90%; background-color: green; }
-.editing { width: 70%; background-color: yellow; }
-.coding { width: 60%; background-color: blue; }
-.sports { width: 50%; background-color: red; }
+.gaming { width: 90%; background-color: aqua; }
+.editing { width: 70%; background-color: aqua; }
+.coding { width: 60%; background-color: aqua; }
+.sports { width: 50%; background-color: aqua; }
 
 /* Gallery Section */
 .gallery-section {
     padding: 10%;
     background-color: darkred;
-    border-bottom: 1.5px solid black;
+    border-bottom: 2.5px solid rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -233,7 +234,7 @@ li a:hover {
 .status-section {
     padding: 10%;
     background-color: darkred;
-    border-bottom: 2.5px solid black;
+    border-bottom: 1.5px  black;
     text-align: center;
 }
 
@@ -293,8 +294,8 @@ li a:hover {
 }
 
 .social-icon {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 50px;
     transition: transform 0.3s ease;
 }
 
@@ -304,6 +305,6 @@ li a:hover {
 
 /* Section Borders */
 .section-border {
-    border: 2.5px solid black;
+    border: 1.5px solid black;
     width: 100%;
 }
