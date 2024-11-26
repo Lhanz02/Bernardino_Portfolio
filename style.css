@@ -190,10 +190,11 @@ li a:hover {
     transition: width 1s ease-in-out;
 }
 
-.gaming { width: 90%; background-color: aqua;
-.editing { width: 70%; background-color: aqua;
-.coding { width: 60%; background-color: aqua;
-.sports { width: 50%; background-color: aqua;
+.gaming { width: 90%; background-color: green; }
+.editing { width: 70%; background-color: yellow; }
+.coding { width: 60%; background-color: blue; }
+.sports { width: 50%; background-color: red; }
+
 
 .gallery-section {
     padding: 10%;
